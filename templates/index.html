@@ -7,11 +7,15 @@
     <title>Music Genre Classifier</title>
 </head>
 <body>
-    <h1>Music Genre Classification</h1>
-    <form action="/predict" method="POST" enctype="multipart/form-data">
-        <label for="file">Upload Audio Features (CSV):</label>
-        <input type="file" id="file" name="file" accept=".csv" required>
-        <button type="submit">Predict Genre</button>
-    </form>
+    <main>
+        <h1>Music Genre Classification</h1>
+        <form action="/predict" method="POST" enctype="multipart/form-data">
+            <label for="file">Upload Audio Features (CSV):</label>
+            <input type="file" id="file" name="file" accept=".csv" required>
+            <button type="submit">Predict Genre</button>
+        </form>
+    </main>
+
 </body>
+
 </html>

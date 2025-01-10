@@ -15,6 +15,8 @@ df = pd.read_csv(csv_path)
 # Display first few rows of the dataset
 print(df.head())
 
+# Add info() and describe()
+
 # Data visualization: Count of samples per genre
 plt.figure(figsize=(10, 6))
 sns.countplot(data=df, x='label', order=df['label'].value_counts().index)
