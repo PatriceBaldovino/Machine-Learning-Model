@@ -1,8 +1,4 @@
 body {
     background-image: url(/assets/ml_background.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 90%;
-    height: 41.6rem;
+    background-color: white;
 }
